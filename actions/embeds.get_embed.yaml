@@ -1,5 +1,5 @@
 name: get_embed
-runner_type: run-python
+runner_type: python-script
 description: "Get the HTML fragment for a previously generated embed with embed_id"
 enabled: true
 entry_point: run.py

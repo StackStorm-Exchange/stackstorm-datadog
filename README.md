@@ -14,6 +14,9 @@ api_key: '87ce4a24b5553d2e482ea8a8500e71b8ad4554ff'
 
 You can generate the app and api key here: https://app.datadoghq.com/account/settings#api
 
+**Note** : When modifying the configuration in `/opt/stackstorm/configs/` please
+           remember to tell StackStorm to load these new values by running
+           `st2ctl reload --register-configs`
 
 ## Actions
 

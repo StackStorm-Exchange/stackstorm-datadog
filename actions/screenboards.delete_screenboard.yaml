@@ -1,5 +1,5 @@
 name: delete_screenboard
-runner_type: run-python
+runner_type: python-script
 description: "Delete an existing screenboard"
 enabled: true
 entry_point: run.py

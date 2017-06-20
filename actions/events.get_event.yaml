@@ -1,5 +1,5 @@
 name: get_event
-runner_type: run-python
+runner_type: python-script
 description: "Query for event details"
 enabled: true
 entry_point: run.py

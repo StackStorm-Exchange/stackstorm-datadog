@@ -1,5 +1,5 @@
 name: unmute_all_monitors
-runner_type: run-python
+runner_type: python-script
 description: "Disables muting all monitors"
 enabled: true
 entry_point: run.py

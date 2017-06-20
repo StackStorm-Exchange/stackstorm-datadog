@@ -1,5 +1,5 @@
 name: get_host_tags
-runner_type: run-python
+runner_type: python-script
 description: "Return the list of tags that apply to a given host"
 enabled: true
 entry_point: run.py

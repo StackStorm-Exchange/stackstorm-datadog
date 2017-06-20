@@ -1,5 +1,5 @@
 name: delete_event
-runner_type: run-python
+runner_type: python-script
 enabled: false
 entry_point: run.py
 description: "Delete an event, not implemented"

@@ -1,5 +1,5 @@
 name: revoke_shared_screenboard
-runner_type: run-python
+runner_type: python-script
 description: "Revoke a currently shared screenboard"
 enabled: true
 entry_point: run.py

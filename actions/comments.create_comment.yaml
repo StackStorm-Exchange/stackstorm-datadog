@@ -1,5 +1,5 @@
 name: create_comment
-runner_type: run-python
+runner_type: python-script
 description: "Add a new comment"
 enabled: true
 entry_point: run.py

@@ -1,5 +1,5 @@
 name: update_user
-runner_type: run-python
+runner_type: python-script
 description: "Update informations for a user from Datadog"
 enabled: true
 entry_point: run.py
