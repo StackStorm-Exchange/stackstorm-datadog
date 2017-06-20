@@ -1,5 +1,5 @@
 name: post_event
-runner_type: run-python
+runner_type: python-script
 description: "Post events to the stream"
 enabled: true
 entry_point: run.py

@@ -1,5 +1,5 @@
 name: mute_host
-runner_type: run-python
+runner_type: python-script
 description: "Mute a host"
 enabled: true
 entry_point: run.py

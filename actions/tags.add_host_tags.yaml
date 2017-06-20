@@ -1,5 +1,5 @@
 name: add_host_tags
-runner_type: run-python
+runner_type: python-script
 description: "Add tags to a host on Datadog"
 enabled: true
 entry_point: run.py

@@ -1,5 +1,5 @@
 name: enable_embed
-runner_type: run-python
+runner_type: python-script
 description: "Enable a specified embed"
 enabled: true
 entry_point: run.py

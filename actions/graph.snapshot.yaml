@@ -1,5 +1,5 @@
 name: snapshot
-runner_type: run-python
+runner_type: python-script
 description: "Take graph snapshots"
 enabled: true
 entry_point: run.py

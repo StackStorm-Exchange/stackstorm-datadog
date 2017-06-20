@@ -1,5 +1,5 @@
 name: disable_user
-runner_type: run-python
+runner_type: python-script
 description: "Disable user on Datadog"
 enabled: true
 entry_point: run.py

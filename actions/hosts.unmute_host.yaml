@@ -1,5 +1,5 @@
 name: unmute_host
-runner_type: run-python
+runner_type: python-script
 description: "Unmute a host"
 enabled: true
 entry_point: run.py

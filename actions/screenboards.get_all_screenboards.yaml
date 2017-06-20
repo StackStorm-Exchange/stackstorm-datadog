@@ -1,5 +1,5 @@
 name: get_all_screenboards
-runner_type: run-python
+runner_type: python-script
 description: "Get all screenboards"
 entry_point: run.py
 enabled: true  

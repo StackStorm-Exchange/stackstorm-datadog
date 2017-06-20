@@ -1,5 +1,5 @@
 name: get_tags
-runner_type: run-python
+runner_type: python-script
 description: "Return a mapping of tags to hosts for your whole infrastructure"
 enabled: true
 entry_point: run.py

@@ -1,5 +1,5 @@
 name: edit_monitor
-runner_type: run-python
+runner_type: python-script
 description: "Edit a monitor"
 enabled: true
 entry_point: run.py

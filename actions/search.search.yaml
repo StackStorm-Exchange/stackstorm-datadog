@@ -1,5 +1,5 @@
 name: search
-runner_type: run-python
+runner_type: python-script
 description: "Search for entities from the last 24 hours in Datadog"
 enabled: true
 entry_point: run.py

@@ -1,6 +1,6 @@
 name: schedule_monitor_downtime
 description: "Schedule monitor downtime"
-runner_type: run-python
+runner_type: python-script
 enabled: true
 entry_point: run.py
 parameters:

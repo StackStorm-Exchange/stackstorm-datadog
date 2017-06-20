@@ -1,5 +1,5 @@
 name: get_all_monitors
-runner_type: run-python
+runner_type: python-script
 description: "Get all monitors"
 entry_point: run.py
 enabled: true  
