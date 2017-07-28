@@ -4,13 +4,18 @@ This StackStorm Datadog integration pack supplies action integration for Datadog
 
 ## Configuration
 
-You will need to add your app and api keys to the config.yaml file:
+Copy the example configuration in [datadog.yaml.example](./datadog.yaml.example)
+to `/opt/stackstorm/configs/datadog.yaml` and edit as required.
 
+It should look like this:
 ```yaml
 ---
 app_key: '9775a026f1ca7d1c6c5af9d94d9595a4'
 api_key: '87ce4a24b5553d2e482ea8a8500e71b8ad4554ff'
  ```
+
+You can also use dynamic values from the datastore. See the
+[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
 
 You can generate the app and api key here: https://app.datadoghq.com/account/settings#api
 
