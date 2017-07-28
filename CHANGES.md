@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Added example configuration and updated README
+
 ## 0.1.0
 
 - Updated action `runner_type` from `run-python` to `python-script`
