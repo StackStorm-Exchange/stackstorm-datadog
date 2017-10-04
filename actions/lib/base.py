@@ -11,10 +11,13 @@ class DatadogBaseAction(Action):
         self._init_dd()
 
     def _init_dd(self):
-        options = {
-            'api_key': self.config['api_key'],
-            'app_key': self.config['app_key']
-        }
+        options = {}
+
+        if 'api_key' in self.config and 'app_key' in self.config:
+                options = {
+                    'api_key': self.config['api_key'],
+                    'app_key': self.config['app_key']
+                }
         initialize(**options)
 
     @abstractmethod
@@ -22,6 +25,13 @@ class DatadogBaseAction(Action):
         pass
 
     def run(self, **kwargs):
+        if 'api_key' in kwargs and 'app_key' in kwargs and kwargs['api_key'] and kwargs['app_key']:
+                options = {
+                        'api_key': kwargs.pop('api_key'),
+                        'app_key': kwargs.pop('app_key')
+                }
+                initialize(**options)
+
         # Removing empty strings, None from kwargs without excluding 0
         args = {k: v for k, v in kwargs.iteritems()
                 if str(v).strip() and v is not None}

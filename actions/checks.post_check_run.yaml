@@ -36,4 +36,12 @@ parameters:
     default: lib.checks
     immutable: true
     type: string
+  api_key:
+    required: false
+    type: string
+    description: "datadog api key"
+  app_key:
+    required: false
+    type: string
+    description: "datadog app key"    
 
