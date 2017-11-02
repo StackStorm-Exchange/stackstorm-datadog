@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 from datadog import initialize
-from st2actions.runners.pythonrunner import Action
+from st2common.runners.base_action import Action
 
 
 class DatadogBaseAction(Action):
