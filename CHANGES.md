@@ -2,6 +2,14 @@
 
 ## 0.1.1
 
+- Fixed GetAllMonitors action
+
+## 0.1.2
+
+- Updated deprecated import path
+
+## 0.1.1
+
 - Added example configuration and updated README
 
 ## 0.1.0
