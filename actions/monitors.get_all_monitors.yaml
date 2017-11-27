@@ -13,7 +13,7 @@ parameters:
     required: false
     description: "A comma separated list indicating what tags, if any, should be used to filter the list of monitors by scope"
   cls:
-    default: DatadogGetallMonitors
+    default: DatadogGetAllMonitors
     immutable: true
     type: string
   module_path:

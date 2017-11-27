@@ -17,7 +17,7 @@ class DatadogEditMonitor(DatadogBaseAction):
         return api.Monitor.update(kwargs.pop("monitor_id"), **kwargs)
 
 
-class DatadogAllMonitors(DatadogBaseAction):
+class DatadogGetAllMonitors(DatadogBaseAction):
     def _run(self):
         return api.Monitor.get_all()
 
