@@ -23,7 +23,7 @@ class DatadogBaseAction(Action):
 
     def run(self, **kwargs):
         # Removing empty strings, None from kwargs without excluding 0
-        args = {k: v for k, v in kwargs.iteritems()
+        args = {k: v for k, v in kwargs.items()
                 if str(v).strip() and v is not None}
         out = self._run(**args)
         errors = out.get("errors")
