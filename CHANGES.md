@@ -1,6 +1,10 @@
 # Changelog
 
-## 0.1.1
+## 0.1.4
+
+- Add explicit Python version support (including Python 3)
+
+## 0.1.3
 
 - Fixed GetAllMonitors action
 
