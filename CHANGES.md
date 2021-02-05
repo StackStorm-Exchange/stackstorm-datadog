@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0
+
+* Drop Python 2.7 support
+
 ## 0.1.4
 
 - Add explicit Python version support (including Python 3)
