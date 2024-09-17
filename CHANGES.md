@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+* Update metrics.query_ts_points action with the correct class: `DatadogQueryTSPoints` 
+
 ## 1.0.0
 
 * Drop Python 2.7 support
