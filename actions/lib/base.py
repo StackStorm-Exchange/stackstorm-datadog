@@ -26,7 +26,8 @@ class DatadogBaseAction(Action):
         args = {k: v for k, v in kwargs.items()
                 if str(v).strip() and v is not None}
         out = self._run(**args)
-        errors = out.get("errors")
-        if errors:
-            return (False, errors)
+        if isinstance(out, dict):
+            errors = out.get("errors")
+            if errors:
+                return (False, errors)
         return (True, out)
