@@ -27,7 +27,7 @@ class DatadogBaseAction(Action):
                 if str(v).strip() and v is not None}
         out = self._run(**args)
         if isinstance(out, dict):
-            errors = out.get("errors")
+            errors = out.get("errors", None)
             if errors:
                 return (False, errors)
         return (True, out)
