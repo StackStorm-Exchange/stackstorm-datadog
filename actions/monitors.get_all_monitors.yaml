@@ -11,7 +11,7 @@ parameters:
   tags:
     type: string
     required: false
-    description: "A comma separated list indicating what tags, if any, should be used to filter the list of monitors by scope. For example: `env:prod,service:abc`"
+    description: "A comma separated list indicating what tags, if any, should be used to filter the list of monitors by scope. Example: 'env:prod,service:abc'"
   cls:
     default: DatadogGetAllMonitors
     immutable: true
