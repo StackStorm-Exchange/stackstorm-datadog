@@ -18,8 +18,12 @@ class DatadogEditMonitor(DatadogBaseAction):
 
 
 class DatadogGetAllMonitors(DatadogBaseAction):
-    def _run(self):
-        return api.Monitor.get_all()
+    def _run(self, **kwargs):
+        monitor_tags_raw = kwargs.pop("tags","")
+        group_states_raw = kwargs.pop("group_states","")
+        monitor_tags = [tag.strip() for tag in monitor_tags_raw.split(",")] if monitor_tags_raw else None
+        group_states = [state.strip() for state in group_states_raw] if group_states_raw else None
+        return api.Monitor.get_all(monitor_tags=monitor_tags, group_states=group_states, **kwargs)
 
 
 class DatadogGetMonitor(DatadogBaseAction):

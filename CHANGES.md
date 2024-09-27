@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+* Fix `monitors.get_all_monitors` action to filter results based on `group_states` and `monitor_tags` parameters
+
 ## 1.0.1
 
 * Update metrics.query_ts_points action with the correct class: `DatadogQueryTSPoints` 

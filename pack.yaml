@@ -6,7 +6,7 @@ keywords:
   - monitoring
   - alerting
   - saas
-version: 1.0.1
+version: 1.0.2
 author: Lisa Bekdache
 email: lisa.bekdache@dailymotion.com
 python_versions:
